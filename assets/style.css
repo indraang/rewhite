@@ -1,0 +1,133 @@
+/* reset */
+* {
+    font-size:100%;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-color:#ffffff;
+    list-style: none;
+}
+a{
+	text-decoration:none;
+}
+/* end reset*/
+body{
+	background: #ffffff;
+}
+/* header */
+.header{
+	background-color:#00679e;
+	padding:25px 0;
+}
+.title{
+	text-align:left;
+	color:white;
+}
+.header-search{
+    margin-top:11px;
+}
+.search{
+    float:left;
+    width:90%;
+}
+.header-search input[type="search"]{
+    color:#eee;
+    width:100%;
+    padding:14px 10px;
+    font-size:16px;
+    color:#848484;
+    border:none;
+    outline:none;
+    border-right:1px solid #eee;
+}
+.search-btn{
+    float:right;
+    width:10%;
+}
+.header-search form input[type="submit"]{
+    background:url(./images/search.png) no-repeat 4px 0px #e61791;
+    width:100%;
+    height:50px;
+    padding:0;
+    border:none;
+    outline:none;
+}
+.header-search{
+    border:1px;
+    padding:0;
+}
+/* end header */
+
+/* Link Login & Daftar*/
+.header-right{
+    text-align:right;
+}
+.header-right ul{
+    margin-top:20px;
+}
+.header-right ul li{
+    display:inline-block;
+    margin:0px 3px;
+    font-size:30px;
+}
+/* end link login*/
+/* bann nav*/
+.bann-nav{
+    background-color:skyblue;
+    padding:10px;
+}
+.navbar{
+    position:relative;
+    min-height:50px;
+}
+.navbar-default{
+    background:none;
+    float:left;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+ul .multi-column-dropdown h6{
+    font-size:20px;
+    color:red;
+    margin:0 0 0em;
+    padding-bottom:1em;
+    border-bottom:1px solid  #E4E4E4;
+    text-transform: capitalize;
+}
+.multi-column-dropdown li{
+    margin:14px 0;
+}
+.multi-column-dropdown a{
+    display:block;
+    clear:both;
+
+}
+.dropdown-menu.columns-3{
+    min-width:190px;
+    padding:20px 30px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+     color: #fff !important;
+}
+.navbar{
+    margin-bottom:0;
+    border:none;
+}
+.navbar-nav > li{
+    float:left;
+    margin-left:17px;
+}
+.navbar-nav >li:nth-child(1){
+    margin-left:0px;
+}
+
+/* end bann nav*/
+.error{
+	background-color:#be4b49;
+}

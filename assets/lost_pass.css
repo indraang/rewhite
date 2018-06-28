@@ -1,0 +1,72 @@
+* {
+    font-size:100%;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+	background-color:#6fdbbe;
+}
+input{
+	width:100%;
+	background-color:#ffffff;
+	text-align:center;
+	padding:10px;
+	border-radius:5px;
+	border:1px solid #ddd;
+}
+.header{
+	position:relative;
+	top:50px;
+	width:500px;
+	margin:0 auto;
+	background-color:#18756f;
+	box-shadow:15px 15px 0px rgba(0,0,0,.1);
+	z-index:-999999;
+}
+.header > h1 {
+	font-family:'Bungee';
+	line-height:100px;
+	text-align:center;
+	font-size:50px;
+	color:#6fdbbe;
+}
+.container{
+	background-color:#64ffcb;
+	text-align:center;
+	width:500px;
+	height:400px;
+	margin:50px auto;
+	padding:40px;
+	border-bottom:10px solid #22746e;
+	box-shadow:15px 15px 0px rgba(0,0,0,.1);
+}
+.container label{
+	position:relative;
+	bottom:15px;
+	margin-top:20px;
+	font-size:25px;
+	color:#22746e;
+	line-height: 35px;
+}
+.container p{
+	margin-top:15px;
+	color:#057b98;
+}
+.container p a{
+	color:palevioletred;
+	text-decoration:none;
+}
+.btn{
+	font-family:'Audiowide';
+	background-color:#2db1a8;
+	color:white;
+	width:100%;
+	margin-top:15px;
+	padding:15px;
+	border:1px solid #33a59d;
+	outline:none;
+
+}
